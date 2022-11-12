@@ -1,0 +1,40 @@
+html {
+    background-color: #6200EA;;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background-color: #6200EA;
+}
+
+a, button {
+    color: #92badd;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: 600;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10vh;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    margin: 40px 8px 10px 8px;
+    color: #cccccc;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}

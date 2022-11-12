@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Error!</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="/static/error.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="formContent">
+    <% if(error === "email"){ %>
+        <h1 class="text-centered">Wrong pass!</h1>
+        <a  class="text-centered" href="/"><button>Login again</button></a>
+     <% } else{%>
+        <h1 class="text-centered">An error occured!</h1>
+        <a  class="text-centered" href="/"><button>Login again</button></a>    
+      <% } %></div></div>
+</body>
